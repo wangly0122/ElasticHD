@@ -26,13 +26,13 @@
                  </el-col>
                  <el-col :xs="24" :sm="12" :md="12" :lg="12">
                      <el-table :data="clusterInfo"  border style="width: 100%">
-                        <el-table-column prop="name" label="Cluster Health" width="200"> </el-table-column>
+                        <el-table-column prop="name" label="集群健康" width="200"> </el-table-column>
                         <el-table-column prop="value"> </el-table-column>
                     </el-table>
                  </el-col>
                   <el-col :xs="24" :sm="12" :md="12" :lg="12">
                      <el-table :data="statsInfo"  border style="width: 100%">
-                        <el-table-column prop="name" label="ElasticSearch Stats Info" width="200"> </el-table-column>
+                        <el-table-column prop="name" label="ElasticSearch Stats 信息" width="200"> </el-table-column>
                         <el-table-column prop="value"> </el-table-column>
                     </el-table>
                  </el-col>
@@ -278,7 +278,7 @@ export default {
           ]
         },
         title: {
-          text: 'ElasticSearch Cluster Status',
+          text: 'ElasticSearch 集群状态',
           subtext: '内存,硬盘,JVM状态',
           x: 'center'
         },

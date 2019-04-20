@@ -2,97 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a5d4dd8-d3e5-487c-98b9-7391f104bab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main/main" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sprite-8460f675.png" afterPath="$PROJECT_DIR$/src/assets/sprite-8460f675.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/baserequest.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/baserequest.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/baseresponse.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/baseresponse.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catindexinfo.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catindexinfo.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catindexinfo_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catindexinfo_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catnodeinfo.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catnodeinfo.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catnodeinfo_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catnodeinfo_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catresponses.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catresponses.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catshardinfo.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catshardinfo.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catshardinfo_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/catshardinfo_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterhealth.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterhealth.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterhealthresponses.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterhealthresponses.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodeshotthreads.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodeshotthreads.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesinfo.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesinfo.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesinfo_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesinfo_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesshutdown.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesshutdown.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesstats.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusternodesstats.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterreroute.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterreroute.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterstate.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterstate.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterstatresponses.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterstatresponses.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterupdatesettings.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/clusterupdatesettings.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/connection.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/connection.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/connection_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/connection_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulk.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulk.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulk_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulk_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulkudp.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corebulkudp.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corecount.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corecount.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coredelete.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coredelete.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coredeletebyquery.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coredeletebyquery.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreexample_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreexample_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreexplain.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreexplain.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreget.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreget.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreindex.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreindex.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremget.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremget.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremorelikethis.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremorelikethis.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremsearch.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coremsearch.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corepercolate.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corepercolate.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corepercolate_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corepercolate_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coresearch.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coresearch.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coresearch_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coresearch_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coretest_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coretest_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreupdate.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/coreupdate.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corevalidate.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/corevalidate.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/error.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/error.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesaliases.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesaliases.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesanalyze.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesanalyze.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesclearcache.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesclearcache.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicescreateindex.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicescreateindex.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeleteindex.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeleteindex.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeletemapping.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeletemapping.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeletemapping_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdeletemapping_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdoc.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesdoc.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesflush.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesflush.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesgetsettings.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesgetsettings.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesindicesexists.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesindicesexists.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesopencloseindex.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesopencloseindex.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesoptimize.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesoptimize.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputmapping.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputmapping.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputmapping_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputmapping_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputsettings.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesputsettings.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesrefresh.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesrefresh.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicessegments.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicessegments.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicessnapshot.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicessnapshot.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesstats.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesstats.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesstatus.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesstatus.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicestemplates.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicestemplates.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesupdatesettings.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/indicesupdatesettings.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/request.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/request.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/request_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/request_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchaggregate.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchaggregate.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchaggregate_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchaggregate_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchdsl.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchdsl.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfacet.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfacet.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfacet_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfacet_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfilter.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfilter.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfilter_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchfilter_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchhighlight.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchhighlight.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchhighlight_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchhighlight_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchquery.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchquery.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchreadme" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchreadme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsearch.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsearch.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsearch_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsearch_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsort.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/searchsort.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/setup_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/setup_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/shared.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/shared.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/shared_test.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/shared_test.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/snapshot.go" afterPath="$PROJECT_DIR$/main/vendor/github.com/mattbaird/elastigo/lib/snapshot.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/overview.vue" afterPath="$PROJECT_DIR$/src/components/overview.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/modules/overviewx.js" afterPath="$PROJECT_DIR$/src/store/modules/overviewx.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -110,17 +22,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overview.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/overview.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="280" column="35" lean-forward="false" selection-start-line="280" selection-start-column="35" selection-end-line="280" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overviewx.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/modules/overviewx.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1555754249721" expanded="true" signature="25058:25100" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25058:25118" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25058:25131" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25058:25146" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25181:25564" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25194:25549" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25229:25535" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25248:25520" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25322:25500" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25362:25466" ph="..." />
+                <marker date="1555754249721" expanded="true" signature="25383:25444" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Cluster Health</find>
+      <find>Total Shards</find>
+      <find>Successful Shards</find>
+      <find>ElasticSearch Cluster</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,6 +109,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/store/modules/overviewx.js" />
+        <option value="$PROJECT_DIR$/src/components/overview.vue" />
       </list>
     </option>
   </component>
@@ -156,8 +133,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="690" />
-    <option name="y" value="147" />
+    <option name="x" value="626" />
+    <option name="y" value="466" />
     <option name="width" value="1491" />
     <option name="height" value="943" />
   </component>
@@ -194,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adminMongo-master" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -318,12 +295,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555748137854</updated>
       <workItem from="1555748139905" duration="102000" />
-      <workItem from="1555748364416" duration="38000" />
+      <workItem from="1555748364416" duration="4672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140000" />
+    <option name="totallyTimeSpent" value="4774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -336,13 +313,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38244852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -355,7 +333,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +358,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1555754249721" expanded="true" signature="25058:25100" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25058:25118" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25058:25131" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25058:25146" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25181:25564" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25194:25549" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25229:25535" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25248:25520" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25322:25500" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25362:25466" ph="..." />
+            <marker date="1555754249721" expanded="true" signature="25383:25444" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/modules/overviewx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/overview.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="280" column="35" lean-forward="false" selection-start-line="280" selection-start-column="35" selection-end-line="280" selection-end-column="35" />
           <folding />
         </state>
       </provider>

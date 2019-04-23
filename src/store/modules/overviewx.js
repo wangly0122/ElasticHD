@@ -12,21 +12,21 @@ const overviewx = {
       {fontAwesome: 'fa fa-save fa-3x', value: '0', name: '总大小', colors: 'panel-red'}
     ],
     statsInfo: [
-      {name: 'clusterName', value: '未知'},
-      {name: 'timestamp', value: '0'},
-      {name: 'es versions', value: '未知'},
+      {name: '集群名称', value: '未知'},
+      {name: '时间戳', value: '0'},
+      {name: 'ES版本', value: '未知'},
       {name: 'os', value: '未知'},
-      {name: 'jvm max uptime', value: '0h'},
-      {name: 'jvm versions', value: '未知'},
-      {name: 'jvm threads', value: '0'}
+      {name: 'jvm最大持续时长', value: '0h'},
+      {name: 'jvm版本', value: '未知'},
+      {name: 'jvm进程', value: '0'}
     ],
     clusterInfo: [
-      {name: 'Status', value: '未连接'},
-      {name: 'Timed Out?', value: 'false'},
-      {name: 'Nodes', value: '0'},
-      {name: 'Data Nodes', value: '0'},
-      {name: 'Active Primary Shards', value: '0'},
-      {name: 'Initializing Shards', value: '0'},
+      {name: '状态', value: '未连接'},
+      {name: '时间超时?', value: 'false'},
+      {name: 'Node数', value: '0'},
+      {name: 'Data Node数', value: '0'},
+      {name: '活跃分片数', value: '0'},
+      {name: '正在初始化分片数', value: '0'},
       {name: 'Unassigned Shards', value: '0'}
     ],
     charts: {
@@ -106,24 +106,24 @@ const overviewx = {
     },
     SET_STATS_INFO: (state, data) => {
       state.statsInfo = [
-        {name: 'clusterName', value: data.clusterName},
-        {name: 'timestamp', value: data.timestamp},
-        {name: 'es versions', value: data.versions},
+        {name: '集群名称', value: data.clusterName},
+        {name: '时间戳', value: data.timestamp},
+        {name: 'ES版本', value: data.versions},
         {name: 'os', value: data.systems},
-        {name: 'jvm max uptime', value: data.uptime},
-        {name: 'jvm versions', value: data.jvm_versions},
-        {name: 'jvm threads', value: data.threads}
+        {name: 'jvm最大持续时长', value: data.uptime},
+        {name: 'jvm版本', value: data.jvm_versions},
+        {name: 'jvm线程数', value: data.threads}
       ]
     },
     SET_CLUSTER_INFO: (state, data) => {
       state.clusterInfo = [
-        {name: 'Status', value: data.status},
-        {name: 'Timed Out?', value: data.timed_out},
-        {name: 'Nodes', value: data.number_of_nodes},
-        {name: 'Data Nodes', value: data.number_of_data_nodes},
-        {name: 'Active Primary Shards', value: data.active_primary_shards},
-        {name: 'Initializing Shards', value: data.initializing_shards},
-        {name: 'Unassigned Shards', value: data.unassigned_shards}
+        {name: '状态', value: data.status},
+        {name: '时间超时?', value: data.timed_out},
+        {name: 'Node数', value: data.number_of_nodes},
+        {name: 'Data Node数', value: data.number_of_data_nodes},
+        {name: '活跃分片数', value: data.active_primary_shards},
+        {name: '正在初始化的分片数', value: data.initializing_shards},
+        {name: '未分配的分片数', value: data.unassigned_shards}
       ]
     }
   },

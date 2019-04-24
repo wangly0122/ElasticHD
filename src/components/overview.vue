@@ -115,7 +115,6 @@ export default {
   name: 'overview',
   data: function () {
     return {
-
     }
   },
   computed: {
@@ -136,6 +135,8 @@ export default {
     this.$store.dispatch('SetClusterInfo', this.health)
     this.$store.dispatch('SetStats', {url: '/_cluster/stats', host: this.serverhost})
     this.$store.dispatch('GetTemplateInfo', {url: '/_template', host: this.serverhost})
+    this.$store.dispatch('HttpPost', {url: '/_cat/health', host: this.serverhost})
+    this.$store.dispatch('GetIndexList', {url: '/_cat/indices', host: this.serverhost})
   },
   watch: {
     health (val, oldval) {

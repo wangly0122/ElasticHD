@@ -1,18 +1,18 @@
 <template>
   <section id="indices-view">
     <el-row :gutter="10">
-      <el-col :xs="24" :sm="24" :md="24" :lg="24"> 
+      <el-col :xs="24" :sm="24" :md="24" :lg="24">
   <el-input placeholder="请输入要查询的索引" icon="search" v-model="inputIndexName" :on-icon-click="handleIconClick">
   </el-input>
         <el-table :data="list.slice(0, showLen)" border style="width: 100%">
-            <el-table-column prop="index" label="Index"  sortable show-overflow-tooltip></el-table-column>
-            <el-table-column prop="docs" label="Docs" sortable show-overflow-tooltip></el-table-column>
-            <el-table-column prop="size" label="Size" sortable show-overflow-tooltip></el-table-column>
+            <el-table-column prop="index" label="索引"  sortable show-overflow-tooltip></el-table-column>
+            <el-table-column prop="docs" label="文档数" sortable show-overflow-tooltip></el-table-column>
+            <el-table-column prop="size" label="大小" sortable show-overflow-tooltip></el-table-column>
             <el-table-column prop="prisize" label="主分片大小" show-overflow-tooltip></el-table-column>
-            <el-table-column prop="health" label="Status" show-overflow-tooltip></el-table-column>
+            <el-table-column prop="health" label="健康情况" show-overflow-tooltip></el-table-column>
             <el-table-column prop="uuid" label="UUID" show-overflow-tooltip></el-table-column>
-            <el-table-column prop="delete" label="Del Docs" show-overflow-tooltip></el-table-column>
-            <el-table-column prop="status" label="Status" show-overflow-tooltip></el-table-column>
+            <el-table-column prop="delete" label="删除文档数" show-overflow-tooltip></el-table-column>
+            <el-table-column prop="status" label="状态" show-overflow-tooltip></el-table-column>
             <el-table-column label="操作">
               <template scope="scope">
                 <el-popover ref="popover{{$index}}" placement="top" width="160" v-model="scope.row.visible" trigger="click">

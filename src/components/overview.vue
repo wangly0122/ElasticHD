@@ -26,13 +26,13 @@
                  </el-col>
                  <el-col :xs="24" :sm="12" :md="12" :lg="12">
                      <el-table :data="clusterInfo"  border style="width: 100%">
-                        <el-table-column prop="name" label="Cluster Health" width="200"> </el-table-column>
+                        <el-table-column prop="name" label="集群健康" width="200"> </el-table-column>
                         <el-table-column prop="value"> </el-table-column>
                     </el-table>
                  </el-col>
                   <el-col :xs="24" :sm="12" :md="12" :lg="12">
                      <el-table :data="statsInfo"  border style="width: 100%">
-                        <el-table-column prop="name" label="ElasticSearch Stats Info" width="200"> </el-table-column>
+                        <el-table-column prop="name" label="ElasticSearch Stats 信息" width="200"> </el-table-column>
                         <el-table-column prop="value"> </el-table-column>
                     </el-table>
                  </el-col>
@@ -46,7 +46,7 @@
                  </el-col>
                  <el-col :xs="24" :sm="24" :md="12" :lg="12">
                     <el-table :data="indexList.slice(0, 9)" border style="width: 100%">
-                        <el-table-column label="Indices list" >
+                        <el-table-column label="索引列表" >
                             <el-table-column type="expand">
                                 <template scope="props">
                                     <el-form label-position="left" inline class="demo-table-expand" >
@@ -83,10 +83,10 @@
                                     </el-form>
                                 </template>
                             </el-table-column>
-                            <el-table-column prop="index" label="Index" show-overflow-tooltip></el-table-column>
-                            <el-table-column prop="docs" label="Docs" sortable show-overflow-tooltip></el-table-column>
-                            <el-table-column prop="size" label="Size" sortable show-overflow-tooltip></el-table-column>
-                            <el-table-column prop="status" label="Status" show-overflow-tooltip></el-table-column>
+                            <el-table-column prop="index" label="索引" show-overflow-tooltip></el-table-column>
+                            <el-table-column prop="docs" label="文档数" sortable show-overflow-tooltip></el-table-column>
+                            <el-table-column prop="size" label="大小" sortable show-overflow-tooltip></el-table-column>
+                            <el-table-column prop="status" label="状态" show-overflow-tooltip></el-table-column>
                             <el-table-column label="操作">
                             <template scope="scope">
                                 <el-popover ref="popover{{$index}}" placement="top" width="160" v-model="scope.row.visible" trigger="click">
@@ -279,7 +279,7 @@ export default {
           ]
         },
         title: {
-          text: 'ElasticSearch Cluster Status',
+          text: 'ElasticSearch 集群状态',
           subtext: '内存,硬盘,JVM状态',
           x: 'center'
         },

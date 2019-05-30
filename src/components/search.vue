@@ -234,6 +234,17 @@ export default {
 </script>
 
 <style>
+  .el-card, .el-card__header ,.el-card__header a, .el-button--primary{
+    background: #114bda !important;
+    color: #fff !important;
+  }
+  .el-input__inner, .el-input-group__append, .el-input-group__prepend,.el-textarea__inner {
+    background: transparent !important;
+    color: #fff !important;
+  }
+  .el-textarea__inner, .el-button--primary, .el-input__inner {
+    border: 1px solid #fff;
+  }
 .el-card__header {
     padding: 10px 20px !important;
     border-bottom: 1px solid #ccc !important;

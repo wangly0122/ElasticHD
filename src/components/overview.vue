@@ -20,7 +20,7 @@
             </el-row>
             <el-row >
                  <el-col :xs="24" :sm="24" :md="24" :lg="24">
-                    <div style="background-color:#ffffff;">
+                    <div style="background-color:#114bda; color: #fff;">
                       <div class="chart" id="cpu-chart" style="width: 100%; height:300px;"></div>
                     </div>
                  </el-col>
@@ -39,9 +39,9 @@
             </el-row>
             <el-row >
                  <el-col :xs="24" :sm="24" :md="12" :lg="12">
-                    <div style="background-color:#ffffff;">
+                    <div style="background-color: #114bda; color: #fff;">
                       <p class="overview-p"><b>Index Templates中Type个数统计</b></p>
-                      <div class="chart" id="temp-chart" style="width: 100%; height:401px;"></div>
+                      <div class="chart" id="temp-chart" style="width: 100%; height:401px; color: #fff;"></div>
                     </div>
                  </el-col>
                  <el-col :xs="24" :sm="24" :md="12" :lg="12">
@@ -276,12 +276,18 @@ export default {
           y: 'bottom',
           data: [
             'Jvm', 'Mem', 'Fs', 'FieldData', 'QueryCache', 'CPU'
-          ]
+          ],
+          textStyle: {
+            color: '#fff'
+          }
         },
         title: {
           text: 'ElasticSearch 集群状态',
           subtext: '内存,硬盘,JVM状态',
-          x: 'center'
+          x: 'center',
+          textStyle: {
+            color: '#fff'
+          }
         },
         series: [
           {
@@ -436,10 +442,10 @@ export default {
 }
 
 .widget-right {
-    background: #FFFFFF none repeat scroll 0 0;
+    background: #114bda none repeat scroll 0 0;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
-    color: #F8F8F8;
+    color: #fff;
     font-weight: 300;
     height: 80px;
     line-height: 1.6em;
@@ -449,11 +455,11 @@ export default {
 }
 
 .widget-right .text-muted {
-    color: #9fadbb;
+    color: #fff;
 }
 
 .widget-right .large {
-    color: #5f6468;
+    color: #fff;
     font-size: 2em;
 }
 
@@ -492,7 +498,8 @@ export default {
 }
 
 .overview-panel-widget {
-    background: #F7F7FF none repeat scroll 0 0;
+    color: #fff;
+    background: #114bda none repeat scroll 0 0;
 }
 
 .panel .tabs {
@@ -517,9 +524,15 @@ export default {
     line-height: 39px;
     width: 100%;
     box-sizing: border-box;
-    background-color: #eef1f6;
+    background-color: #114bda;
     border: 1px solid #dfe6ec;
     margin-right: 20px;
     padding: 0 20px;
+  color: #fff;
 }
+.el-table__empty-text, .el-table, .el-table tr,.el-table--enable-row-hover .el-table__body tr:hover>td, .el-table th, .el-table__footer-wrapper thead div, .el-table__header-wrapper thead div {
+  background: #114bda !important;
+  color: #fff !important;
+}
+
 </style>

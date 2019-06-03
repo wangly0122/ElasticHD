@@ -292,7 +292,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'Jvm-mem', value: charts.memfree, itemStyle: labelBottom},
-              {name: 'Jvm', value: charts.vm_mem_used, itemStyle: labelTop}
+              {name: '虚拟机', value: charts.vm_mem_used, itemStyle: labelTop}
             ]
           },
           {
@@ -303,7 +303,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'Mem-total', value: charts.memfree, itemStyle: labelBottom},
-              {name: 'Mem', value: charts.memused, itemStyle: labelTop}
+              {name: '内存', value: charts.memused, itemStyle: labelTop}
             ]
           },
           {
@@ -314,7 +314,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'Fs-total', value: charts.fsfree, itemStyle: labelBottom},
-              {name: 'Fs', value: charts.fstotal - charts.fsfree, itemStyle: labelTop}
+              {name: '存储', value: charts.fstotal - charts.fsfree, itemStyle: labelTop}
             ]
           },
           {
@@ -325,7 +325,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'Field-mem', value: charts.memfree, itemStyle: labelBottom},
-              {name: 'FieldData', value: charts.fielddata_mem_used, itemStyle: labelTop}
+              {name: '分词数据', value: charts.fielddata_mem_used, itemStyle: labelTop}
             ]
           },
           {
@@ -336,7 +336,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'QueryCache-mem', value: charts.memfree, itemStyle: labelBottom},
-              {name: 'QueryCache', value: charts.query_cache_memory_size, itemStyle: labelTop}
+              {name: '查询缓存', value: charts.query_cache_memory_size, itemStyle: labelTop}
             ]
           },
           {
@@ -347,7 +347,7 @@ export default {
             itemStyle: labelFromatter,
             data: [
               {name: 'CPUFree', value: charts.cpufree, itemStyle: labelBottom},
-              {name: 'CPU', value: charts.cpuused, itemStyle: labelTop}
+              {name: '处理器', value: charts.cpuused, itemStyle: labelTop}
             ]
           }
         ]

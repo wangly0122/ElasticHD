@@ -4,7 +4,7 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 const headerx = {
   state: {
-    serverHost: 'http://192.168.1.79:9201',
+    serverHost: 'http://compute4:9200',
     status: '未连接',
     githubUrl: 'https://github.com/farmerx',
     statusStyleObject: {

@@ -21,7 +21,7 @@
     "element-ui": "^1.2.9",
     "font-awesome": "^4.7.0",
     "highlight.js": "^9.11.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "jquery-jsonview": "^1.2.3",
     "marked": "^0.3.6",
     "v-tooltip": "^1.1.6",
